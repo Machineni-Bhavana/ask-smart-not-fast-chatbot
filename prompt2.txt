@@ -1,0 +1,16 @@
+Task: to create UI to the chatbot
+Context: 
+- create conda environment called iisc_chatbot_env to run the chatbot
+- create a bot.py is a pyhton file that uses theh google genai to create a chatbot that accepts a ggogel gemini api
+- the model used is gemini-2.5-flash-lite is correct and do not change it
+- use dotenv utility to load the api key from the .env file 
+- let teh user ask questions and the bot should answer them 
+- when use mentions to quit teh chtabot ahould quit
+- create a UI to the chatbot using streamlit 
+- the UI should have a text area to enter the question and a button to submit the question
+
+arch: 
+- bot.py : main file to run the chtabot 
+- .env : environment file to store the api key 
+- requirements.txt : file to store the required packages 
+- streamlit_app.py : file to create the UI
